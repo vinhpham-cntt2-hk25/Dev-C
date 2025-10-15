@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Trang-1" id="vCjJrhAxlGVh-jyPQYvu">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FcraPkA4PVg9Z-8DUd9Z-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FcraPkA4PVg9Z-8DUd9Z-1" target="FcraPkA4PVg9Z-8DUd9Z-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FcraPkA4PVg9Z-8DUd9Z-1" value="bắt đầu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FcraPkA4PVg9Z-8DUd9Z-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FcraPkA4PVg9Z-8DUd9Z-7" target="FcraPkA4PVg9Z-8DUd9Z-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FcraPkA4PVg9Z-8DUd9Z-7" value="nhập&amp;nbsp;&lt;div&gt;a,b&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FcraPkA4PVg9Z-8DUd9Z-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FcraPkA4PVg9Z-8DUd9Z-9" target="FcraPkA4PVg9Z-8DUd9Z-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="10" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FcraPkA4PVg9Z-8DUd9Z-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="FcraPkA4PVg9Z-8DUd9Z-9" target="FcraPkA4PVg9Z-8DUd9Z-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="244" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FcraPkA4PVg9Z-8DUd9Z-9" value="a&amp;lt;b ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="90" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FcraPkA4PVg9Z-8DUd9Z-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FcraPkA4PVg9Z-8DUd9Z-11" target="FcraPkA4PVg9Z-8DUd9Z-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FcraPkA4PVg9Z-8DUd9Z-11" value="a&amp;gt;b chọn b" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FcraPkA4PVg9Z-8DUd9Z-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FcraPkA4PVg9Z-8DUd9Z-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FcraPkA4PVg9Z-8DUd9Z-13" value="a&amp;lt;b" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="200" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FcraPkA4PVg9Z-8DUd9Z-19" value="kết thúc" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

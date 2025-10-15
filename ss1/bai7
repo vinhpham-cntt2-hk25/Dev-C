@@ -1,0 +1,199 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7">
+  <diagram name="Trang-1" id="nexfftcfE1yIIRB5uzyj">
+    <mxGraphModel dx="2108" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GIfvDOHDbYPbGD70bMWF-1" target="GIfvDOHDbYPbGD70bMWF-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-1" value="bắt đầu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GIfvDOHDbYPbGD70bMWF-3" target="GIfvDOHDbYPbGD70bMWF-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="414" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-3" value="nhập a, b, c" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GIfvDOHDbYPbGD70bMWF-5" target="GIfvDOHDbYPbGD70bMWF-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="606" y="440" as="targetPoint" />
+            <mxPoint x="480" y="315" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="606" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-5" value="kiểm tra điều kiện a=0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="358" y="260" width="116" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GIfvDOHDbYPbGD70bMWF-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="50" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GIfvDOHDbYPbGD70bMWF-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-11" value="a=0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GIfvDOHDbYPbGD70bMWF-14" target="GIfvDOHDbYPbGD70bMWF-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-14" value="a=0,b=0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.01;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="GIfvDOHDbYPbGD70bMWF-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="54.5" y="1095" as="targetPoint" />
+            <mxPoint x="54.5" y="785" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="55" y="1095" />
+              <mxPoint x="129" y="1095" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-15" value="phương trình có vô só nghiệm" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="710" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GIfvDOHDbYPbGD70bMWF-18" target="GIfvDOHDbYPbGD70bMWF-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-18" value="a=0,b&lt;span style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; font-weight: bolder; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;≠0&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GIfvDOHDbYPbGD70bMWF-19" target="GIfvDOHDbYPbGD70bMWF-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="1060" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="1090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-19" value="phương trình có nghiệm duy nhất x=-b/a" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="710" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GIfvDOHDbYPbGD70bMWF-21" target="GIfvDOHDbYPbGD70bMWF-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="416" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-21" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;a ≠ 0 &lt;/span&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GIfvDOHDbYPbGD70bMWF-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-23" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Δ = b² - 4ac&lt;/span&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-31" value="đúng" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GIfvDOHDbYPbGD70bMWF-27" target="GIfvDOHDbYPbGD70bMWF-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-38" value="sai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GIfvDOHDbYPbGD70bMWF-27" target="GIfvDOHDbYPbGD70bMWF-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-27" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Kiểm tra Δ &amp;lt; 0&lt;/span&gt;&#xa;&#xa;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="670" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GIfvDOHDbYPbGD70bMWF-29" target="GIfvDOHDbYPbGD70bMWF-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-29" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Δ &amp;lt; 0&lt;/span&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.983;entryY=0.62;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GIfvDOHDbYPbGD70bMWF-33" target="GIfvDOHDbYPbGD70bMWF-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="1100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-33" value="vô nghiệm" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-39" value="đúng" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GIfvDOHDbYPbGD70bMWF-37" target="GIfvDOHDbYPbGD70bMWF-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-41" value="sai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GIfvDOHDbYPbGD70bMWF-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="910" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="820" y="805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-37" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;kiểm tra Δ = 0&lt;/span&gt;&#xa;&#xa;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="655" y="750" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GIfvDOHDbYPbGD70bMWF-40" target="GIfvDOHDbYPbGD70bMWF-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-40" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt; x = -b / (2a)&lt;/span&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GIfvDOHDbYPbGD70bMWF-43" target="GIfvDOHDbYPbGD70bMWF-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="1110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="1110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-43" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Tính và Xuất 2 nghiệm phân biệt x₁, x₂&lt;/span&gt;&#xa;&#xa;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="910" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GIfvDOHDbYPbGD70bMWF-45" target="GIfvDOHDbYPbGD70bMWF-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="1090" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="1090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-45" value="xuất 2 nghiệm kép" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GIfvDOHDbYPbGD70bMWF-52" value="kết thúc" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1050" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
