@@ -1,16 +1,49 @@
 #include<stdio.h>
 int main(){
-	float DiemToan, DiemVan, DiemAnh; 
-printf("nhap diem toan\n");
-scanf("%f",&DiemToan);
-printf("nhap diem van\n");
-scanf("%f",&DiemVan);
-printf("nhap diem anh\n");
-scanf("%f",&DiemAnh);
-	float TongDiem = DiemToan + DiemVan + DiemAnh;
-	float DiemTB = ( DiemToan + DiemVan + DiemAnh)/3;
-printf("tong diem cua ban la: %.2f\ndiem trung bình cua ban la: %.2f ",TongDiem, DiemTB); 
- 
+int thang;
+printf("nhap thang ");
+scanf("%d",&thang);
+switch(thang){
+	case 1:
+		printf("thang 1 co 31 ngay ");
+	break;
+	case 2:
+		printf("thang 2 co 28 hoac 29 ngay");
+	break;
+	case 3:
+		printf("thang 3 co 31 ngay ");
+	break;
+	case 5:
+		printf("thang 5 co 31 ngay ");
+	break;
+	case 7:
+		printf("thang 7 co 31 ngay ");
+	break;
+	case 8:
+		printf("thang 8 co 31 ngay ");
+	break;
+	case 10:
+		printf("thang 10 co 31 ngay ");
+	break;
+	case 12:
+		printf("thang 12 co 31 ngay ");
+	break;
+	case 4:
+		printf("thang 4 co 30 ngay");
+	break;
+	case 6:
+		printf("thang 6 co 30 ngay");
+	break; 
+	case 9:
+		printf("thang 6 co 30 ngay");
+	break; 
+	case 11:
+		printf("thang 11 co 30 ngay ");
+	break; 
+default:
+	printf("thang khong hop le"); 
+	
+} 
 return 0;
 }
 

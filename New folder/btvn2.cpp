@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main(){
-float doC,doF;
- printf("vui long nhap nhiet do muon doi\n");
- scanf("%f",&doC);
- doF = doC * 9 / 5 + 32;
- printf("nhiet do ban can la: %f", doF); 
- 
+ int n;
+ printf("nhap so nguyen ");
+ scanf("%d",&n);
+ if( n % 2 ==  0) { printf("so vua nhap la so chan"); 
+ } else{ printf("so vua nhap la so le"); 
+ } 
 return 0;
 }
 

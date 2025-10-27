@@ -1,9 +1,11 @@
 #include<stdio.h>
 int main(){
-	char name[10];
-	printf("vui long nhap ten ban\n");
-	scanf("%s",name);
-	printf("ten ban la: %s",name);
+int n;
+printf("nhap mot so nguyen "); 
+scanf("%d",&n); 
+if(n>0) { printf("so vua nhap la so duong");
+} else if(n<0) { printf("so vua nhap la so am "); 
+} 
 return 0;
 }
 
