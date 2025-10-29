@@ -2,12 +2,12 @@
 
 int main() {
 	int a,b,temp;
-	printf("Nhap so nguyen duong: ");
+	printf("Enter a positive integer: ");
 	scanf("%d", &a);
-	printf("nhap so nguyen duong: ");
+	printf("Enter a positive integer: ");
 	scanf("%d", &b);
 	if(a <= 0 || b <= 0) {
-		printf("Vui long nhap dung gia tri");
+		printf("Please enter the correct value");
 		return 1; 
 	} 
 	while(b != 0) {
@@ -15,6 +15,6 @@ int main() {
 		a = b;
 		b = temp; 
 	} 
-	printf("Uoc chung lon nhat: %d\n", a);
+	printf("Greatest common divisor: %d\n", a);
 	return 0; 
 } 

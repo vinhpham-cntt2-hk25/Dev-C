@@ -4,15 +4,15 @@
 int main() {
 	int i, N ;
 	int sum = 0; 
-	printf("Nhap N: ");
+	printf("Enter N: ");
 	scanf("%d", &N);
 	if (N<0) {
-		printf("Loi gia tri hay nhap lai");
+		printf("Value please re-enter");
 		return 0; 
 	} 
 	for (i = 1; i<=N; i++ ) {
 		sum += i; 
 	} 
-	printf("Tong = %d", sum);
+	printf("Sum = %d", sum);
 	return 0; 
 } 

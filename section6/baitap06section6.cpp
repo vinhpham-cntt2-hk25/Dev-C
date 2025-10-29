@@ -4,46 +4,46 @@
 int main() {
 	float number_1,number_2,result; 
 	int choose; 
-	printf("Nhap so thu nhat: ");
+	printf("Enter the first number: ");
 	scanf("%f", &number_1);
-	printf("nhap so thu hai: ");
+	printf("Enter the second number: ");
 	scanf("%f", &number_2);
-	printf("1. Tong 2 so\n");
-	printf("2. Hieu 2 so\n");
-	printf("3. Tich 2 so\n");
-	printf("4. Thuong 2 so\n");
-	printf("5. Thoat\n");
-	printf("Moi ban lua chon theo so thu tu: ");
+	printf("1. Sum of two number\n");
+	printf("2. difference of two numbers\n");
+	printf("3. Product of two numbers\n");
+	printf("4. Quotient of two numbers\n");
+	printf("5. Exit\n");
+	printf("Please select in order: ");
 	scanf("%d", &choose);
 	do {
 	 switch(choose){
 	 	case 1:
 		  result = number_1 + number_2;
-		  printf("Tong hai so la: %.2f\n", result);
+		  printf("Sum of two number: %.2f\n", result);
 		  break; 
 		case 2:
 		  result = number_1 - number_2;
-		  printf("Hieu hai so la: %.2f\n", result);
+		  printf("difference of two numbers: %.2f\n", result);
 		  break;
 		case 3:
 		  result = number_1 * number_2;
-		  printf("Tich hai so la: %.2f\n", result);
+		  printf("Product of two numbers: %.2f\n", result);
 		  break; 
 		case 4:
 		if(number_2 == 0){
-			printf("Loi khong the chia cho 0\n");
+			printf("error cannot didivde by zero\n");
 		} else {
 			result = number_1 / number_2;
-			printf("Thuong hai so la: %.2f\n", result);
+			printf("Quotient of two numbers: %.2f\n", result);
 		  break; 
 		}
 		case 5:
-			printf("dang thoat chuong trinh nhan enter mot lan nua\n");
+			printf("Exiting the program press enter again\n");
 			break; 
 		defualt:
-		printf("vui long nhap lai\n");
+		printf("Please re-enter\n");
 	 }	if(choose != 5){
-		printf("lua chon tiep: ");
+		printf("Other option: ");
 		scanf("%d", &choose);
 	}
 	 } while (choose != 5);
