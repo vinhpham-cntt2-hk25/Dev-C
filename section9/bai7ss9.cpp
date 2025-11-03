@@ -1,37 +1,34 @@
 #include <stdio.h>
-int main(){
-	const int n = 4; 
-	int a[n][n] = {
-		
-		{4, 4, 4, 4} ,
-		{4, 4, 4, 4} ,
-		{4, 4, 4, 4} ,
-		{4, 4, 4, 4} 
-	};
-	printf ("---MANG DA KHI BAO LA---\n");
-	for (int i = 0; i < n; i++){
-		for (int j = 0; j < n; j++){
-			printf ("%5d", a[i][j]); 
-		} 
-		printf ("\n"); 
-	} 
-	 
-	int Sum; 
-	int four; 
-	for(int i = 0; i < n; i++){
-		four =  a[i][i];		
-		Sum += four;
-	} 
-	
-	printf("---CAC PHAN TU TREN DUONG CHEO VA TONG CUA CAC PHAN TU---\n");
-	printf ("Cac phan tu nam trên duong cheo la: \n") ;
-	
-	for(int i = 0; i < n; i++){
-		printf ("%5d", a[i][i]);
-	}
-	printf ("\n") ;
-	printf 	("\nTong cua cac phan tu nam tren duong cheo la: %d", Sum);
-	
-	return 0; 
-	
-} 
+#include <math.h>
+int laSoNguyenTo(int n) {
+    if (n < 2) return 0; 
+    for (int i = 2; i <= sqrt(n); i++) {
+        if (n % i == 0)
+            return 0;
+    }
+    return 1;
+}
+
+int main() {
+    int n;
+    printf("Nhap so phan tu n: ");
+    scanf("%d", &n);
+
+    int a[n];
+    printf("Nhap cac phan tu cua mang:\n");
+    for (int i = 0; i < n; i++) {
+        printf("a[%d] = ", i);
+        scanf("%d", &a[i]);
+    }
+
+    int tong = 0;
+    for (int i = 0; i < n; i++) {
+        if (laSoNguyenTo(a[i])) {
+            tong += a[i];
+        }
+    }
+
+    printf("\nTong cac phan tu la so nguyen to trong mang = %d\n", tong);
+
+    return 0;
+}
