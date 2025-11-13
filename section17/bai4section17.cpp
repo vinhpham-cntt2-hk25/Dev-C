@@ -9,6 +9,7 @@ int main() {
     fgets(str, sizeof(str), stdin);
     str[strcspn(str, "\n")] = '\0'; 
 
+    // Nh?p ký t? c?n xóa
     printf("Nhap ky tu can xoa: ");
     scanf("%c", &ch);
 
@@ -27,4 +28,3 @@ int main() {
 
     return 0;
 }
-
