@@ -3,7 +3,7 @@
 
 void concatManual(char str1[], char str2[]) {
     int len1 = 0;
-    while (str1[len1] != '\0') len1++; // tÏm d? d‡i str1
+    while (str1[len1] != '\0') len1++; // t√¨m d? d√†i str1
     int i = 0;
     while (str2[i] != '\0') {
         str1[len1 + i] = str2[i];
@@ -15,22 +15,23 @@ void concatManual(char str1[], char str2[]) {
 int main() {
     char str1[200], str2[100];
 
-    printf("Nhap chuoi thu nhat: ");
+    printf("Enter the first string: ");
     fgets(str1, sizeof(str1), stdin);
     str1[strcspn(str1, "\n")] = 0; 
 
-    printf("Nhap chuoi thu hai: ");
+    printf("enter the second string: ");
     fgets(str2, sizeof(str2), stdin);
     str2[strcspn(str2, "\n")] = 0; 
     char result1[200];
     strcpy(result1, str1);  
     strcat(result1, str2);
-    printf("Ket qua noi (strcat): %s\n", result1);
+    printf("concatenation results (strcat): %s\n", result1);
 
     char result2[200];
     strcpy(result2, str1);
     concatManual(result2, str2);
-    printf("Ket qua noi (thu cong): %s\n", result2);
+    printf("concatenation results (thu cong): %s\n", result2);
 
     return 0;
 }
+
