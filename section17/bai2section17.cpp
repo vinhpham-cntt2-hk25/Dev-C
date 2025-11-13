@@ -6,40 +6,41 @@
 int main() {
     char str[100];
     int choice;
-    printf("Nhap vao mot chuoi bat ky: ");
+    printf("enter any string: ");
     fgets(str, sizeof(str), stdin);
     str[strcspn(str, "\n")] = '\0'; 
 
     while (1) {
         printf("\n+------------------MENU------------------+\n");
-        printf("1. Chuyen chuoi thanh CHU HOA\n");
-        printf("2. Chuyen chuoi thanh chu thuong\n");
-        printf("3. Thoat\n");
+        printf("1. convert letters to uppercase\n");
+        printf("2. onvert letters to lowercase\n");
+        printf("3. Exit\n");
         printf("------------------------------------------\n");
-        printf("Moi ban lua chon: ");
+        printf("Please choose: ");
         scanf("%d", &choice);
 
         switch (choice) {
             case 1:
                 for (int i = 0; i < strlen(str); i++)
                     str[i] = toupper(str[i]);
-                printf("Chuoi sau khi chuyen thanh CHU HOA: %s\n", str);
+                printf("string after conversion to uppercase: %s\n", str);
                 break;
 
             case 2:
                 for (int i = 0; i < strlen(str); i++)
                     str[i] = tolower(str[i]);
-                printf("Chuoi sau khi chuyen thanh chu thuong: %s\n", str);
+                printf("string after conversion to lowercase: %s\n", str);
                 break;
 
             case 3:
-                printf("Thoat chuong trinh.\n");
+                printf("exit the program.\n");
                 return 0;
 
             default:
-                printf("Lua chon khong hop le! Vui long chon lai.\n");
+                printf("Invalid selection! Please select again.\n");
         }
     }
 
     return 0;
 }
+
