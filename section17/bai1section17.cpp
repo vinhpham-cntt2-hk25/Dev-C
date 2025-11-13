@@ -5,7 +5,7 @@ int main() {
     char str[100];
     int i, len, isPalindrome = 1; 
 
-    printf("Nhap chuoi: ");
+    printf("import string: ");
     fgets(str, sizeof(str), stdin); 
 
     str[strcspn(str, "\n")] = '\0';
@@ -27,3 +27,4 @@ int main() {
 
     return 0;
 }
+
