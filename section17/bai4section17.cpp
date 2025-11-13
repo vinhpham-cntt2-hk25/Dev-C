@@ -5,12 +5,12 @@ int main() {
     char str[100];
     char ch;
     
-    printf("Nhap mot chuoi bat ky: ");
+    printf("Enter any string: ");
     fgets(str, sizeof(str), stdin);
     str[strcspn(str, "\n")] = '\0'; 
 
-    // Nh?p kı t? c?n xóa
-    printf("Nhap ky tu can xoa: ");
+    // Nh?p kÃ½ t? c?n xÃ³a
+    printf("Enter the character to delete: ");
     scanf("%c", &ch);
 
     int len = strlen(str);
@@ -24,7 +24,8 @@ int main() {
     }
     str[j] = '\0'; 
 
-    printf("Chuoi sau khi xoa ky tu '%c': %s\n", ch, str);
+    printf("string after deleting characters '%c': %s\n", ch, str);
 
     return 0;
 }
+
