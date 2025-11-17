@@ -1,9 +1,10 @@
 #include <stdio.h>
 
-// H�m d?m s? ph?n t? ch?n v� l?
+#define MAX 100  // Kích thước tối đa của mảng
+
 void countEvenOdd(int *arr, int n, int *even, int *odd) {
-    *even = 0; // kh?i t?o bi?n ch?n
-    *odd = 0;  // kh?i t?o bi?n l?
+    *even = 0;
+    *odd = 0;
     for (int i = 0; i < n; i++) {
         if (*(arr + i) % 2 == 0)
             (*even)++;
@@ -14,16 +15,28 @@ void countEvenOdd(int *arr, int n, int *even, int *odd) {
 
 int main() {
     int n;
-    printf("Nhap so phan tu mang: ");
-    scanf("%d", &n);
+    int arr[MAX];
+    int even, odd;
 
-    int arr[n];
+    do {
+        printf("Nhap so phan tu mang (<= %d): ", MAX);
+        if (scanf("%d", &n) != 1 || n <= 0 || n > MAX) {
+            printf("Gia tri khong hop le, nhap lai!\n");
+            while(getchar() != '\n'); 
+        } else break;
+    } while (1);
+
     for (int i = 0; i < n; i++) {
-        printf("Nhap phan tu arr[%d]: ", i);
-        scanf("%d", &arr[i]);
+        while (1) {
+            printf("Nhap arr[%d]: ", i);
+            if (scanf("%d", arr + i) == 1) break;
+            else {
+                printf("Gia tri khong hop le, nhap lai!\n");
+                while(getchar() != '\n'); // xóa bộ đệm
+            }
+        }
     }
 
-    int even, odd;
     countEvenOdd(arr, n, &even, &odd);
 
     printf("So phan tu chan: %d\n", even);
@@ -31,3 +44,4 @@ int main() {
 
     return 0;
 }
+
