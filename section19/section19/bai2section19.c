@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-#define MAX 100  // Kích thước tối đa của mảng
-
+#define MAX 100  
 void countEvenOdd(int *arr, int n, int *even, int *odd) {
     *even = 0;
     *odd = 0;
@@ -44,4 +43,5 @@ int main() {
 
     return 0;
 }
+
 
